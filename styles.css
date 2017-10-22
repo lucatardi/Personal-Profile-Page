@@ -78,11 +78,15 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #fff;
-  color: black;
+
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
+}
+.name {
+  color: black;
+  text-shadow: 0.2rem 0.2rem 0.2rem green;
 }
 .location {
   background-color: #222;
