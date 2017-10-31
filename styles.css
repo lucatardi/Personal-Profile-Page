@@ -99,6 +99,7 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
+  box-shadow: 10px 10px 20px black;
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -120,14 +121,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: blue;
   color: white;
   padding: 5px 10px;
   margin: 2px;
+  box-shadow: 4px 4px 1px white;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: blue;
 }
 
 footer {
