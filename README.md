@@ -1,4 +1,4 @@
-# A website that shows my Resume, my Goals and my Background. 
+<h1> A website that shows my Resume, my Goals and my Background. </h1>
 
 # Features used:
 - Links to connect two pages.
