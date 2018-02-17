@@ -1,6 +1,8 @@
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,6 +17,10 @@ body {
                          /* Text formatting */
 
 .text__summary {
+  color: blue;
+}
+
+.text__title {
   color: blue;
 }
 
@@ -40,6 +46,18 @@ header {
 .div__summary {
   grid-column: span 2;
 }
+
+.div__title {
+  grid-column: span 2;
+  border-bottom: 2px blue solid;
+  padding: 2px;
+  text-align: left;
+}
+
+.div__skills {
+  grid-column: span 2;
+}
+
 
 
 .profile-image {
