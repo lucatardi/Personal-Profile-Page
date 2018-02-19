@@ -22,6 +22,7 @@ body {
 
 .text__title {
   color: blue;
+  text-transform: uppercase;
 }
 
 
