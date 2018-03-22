@@ -1,19 +1,73 @@
 /* Global Layout Set-up */
-/* * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} */
+}
 
 /* Text formatting */
 
-
-
 .text__summary {
   color: blue;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 15px 25px;
 }
 
 .text__title {
   color: blue;
   text-transform: uppercase;
+  font-size: 1.5rem;
+  border-bottom: 2px solid blue;
+}
+
+.name {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.role {
+  font-size: 1.8rem;
+  text-align: center;
+  color: blue;
+}
+
+.div__event h3 {
+  font-weight: lighter;
+  font-size: 1.4rem;
+  padding-bottom: 5px;
+}
+
+.div__event h5 {
+  color: blue;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  padding-bottom: 5px;
+}
+
+/* SVGs */
+
+.div__event .svg {
+  width: 20px;
+  height: 20px;
+}
+
+.svg,
+.text__icon {
+  display: inline;
+}
+
+.text__icon {
+  padding-right: 30%;
+}
+
+.checked, li {
+  display: inline;
+}
+
+/* div event layout */
+
+.div__event {
+  border-bottom: 1px dashed gray;
 }
