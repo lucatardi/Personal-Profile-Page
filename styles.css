@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  padding: 5px;
+}
+
 /* Text formatting */
 
 .text__summary {
@@ -22,7 +26,7 @@
 }
 
 .name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -43,7 +47,7 @@
   color: blue;
   font-size: 1.1rem;
   font-weight: lighter;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 /* SVGs */
@@ -59,15 +63,26 @@
 }
 
 .text__icon {
-  padding-right: 30%;
+  padding-right: 20%;
 }
 
-.checked, li {
-  display: inline;
-}
 
 /* div event layout */
 
 .div__event {
   border-bottom: 1px dashed gray;
+  padding: 25px;
+}
+
+.div__event:last-child {     /* delete border in last event element */
+  border-bottom: none;
+}
+
+.div__event ul {
+  list-style-image: url('images/checked.svg');
+  margin: 10px;
+}
+
+.div__event ul li {
+  padding: 7px 0;
 }
