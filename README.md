@@ -1,7 +1,7 @@
-<H2> A website that shows my Resume, my Goals and my Background. </h2>
+<H2> My Curriculum Vitae </h2>
 
 <h3> Features used: </h3>
-- Links to connect two pages. <br>
+- SVGs. <br>
 - Media Queries to adapt the Website in three different views. <br>
 - Pseudo Classes to do some nice functionality. <br>
 
