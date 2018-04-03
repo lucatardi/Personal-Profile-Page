@@ -102,8 +102,31 @@ body {
 
 main {
   flex: 2;
+  padding: 10px;
 }
 
 aside {
   flex: 1;
+  padding: 10px;
+}
+
+/* aside */
+
+.skills,
+.languages {
+  list-style-type: none;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills > * {
+  padding: 5px;
+  margin: 5px 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 7px;
 }
